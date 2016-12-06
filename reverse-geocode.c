@@ -47,7 +47,7 @@ static struct pos {
  * 
  * name: nominatim_rev
  * @param pos: pointer to struct pos with latitude & longitude.
- * 		 	   function returned with road_name (string) filled
+ * 		function returned with road_name (string) filled
  * @return void
  * 
  */
