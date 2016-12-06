@@ -43,13 +43,11 @@ static struct pos {
 	double speed;
 };
 
-/*
- * 
+/* 
  * name: nominatim_rev
  * @param pos: pointer to struct pos with latitude & longitude.
- * 		function returned with road_name (string) filled
- * @return void
- * 
+ *             function returned with road_name (string) filled
+ * @return void 
  */
 
 void nominatim_rev(struct pos *p) 
@@ -81,11 +79,9 @@ void nominatim_rev(struct pos *p)
 }
 
 /*
- * 
- * name: main
- * @param void
+ * name: main()
+ * @param none
  * @return int
- * 
  */
 
 int main(void)
