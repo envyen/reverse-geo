@@ -1,6 +1,6 @@
 before_install:
 - sudo apt-get update
-- sudo apt-get install libgps
+- sudo apt-get install gpsd
 language: cpp
 compiler:
 - gcc
